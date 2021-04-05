@@ -1,1 +1,8 @@
+:root {
+    --lightBeige: rgb(245, 230, 204);
+  }
 
+* {
+    padding: 0;
+    margin: 0;
+}
