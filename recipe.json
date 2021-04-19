@@ -1,0 +1,58 @@
+{
+    "recipe": [
+{
+  "name": "Chicken with lemon and garlic",
+  "image":
+    "https://cdn.valio.fi/mediafiles/8a5ae96e-1044-40d0-9abd-f60e54263a3b/1000x752-recipe-hero/4x3/sitruuna-valkosipulibroileri.jpg",
+  "recipeCategory": "main course",
+  "totalTime": "25 minutes",
+  "recipeYield": "4",
+  "description": "Mediterranean style chicken dish",
+  "keywords": "chicken, garlic, lemon",
+  "recipeIngredients": [
+    "600 g chicken fillet stakes",
+    "1 teaspoon salt",
+    "butter or vegetable oil",
+    "1 lemon",
+    "6 cloves of garlic",
+    "1 tablespoon lemon juice",
+    "1 dl mineral water",
+    "150 g creme fraiche",
+    "2 tablespoons honey",
+    "black pepper"
+  ],
+  "recipeInstructions": [
+    "Sprinkle salt to fillets and fry them on both sides in butter or in oil.",
+    "Cut the garlic cloves to half and cut the lemon to big sections. Add lemon juice and mineral water to the pan.",
+    "Let simmer for 15 minutes. Then add creme fresh and bring to a boil. Season with honey and black pepper."
+  ]
+},
+
+{
+  "name": "Greek vegetable casserole",
+  "image":
+    "https://cdn.valio.fi/mediafiles/2d22783e-3910-452b-b6eb-4e19f795c817/1000x752-recipe-hero/4x3/kreikkalainen-arkivuoka.jpg",
+  "recipeCategory": "side dish",
+  "totalTime": "30 minutes",
+  "recipeYield": "4",
+  "description": "Fresh and colorful side dish",
+  "keywords": "Greek, vegetable, zucchini",
+  "recipeIngredients": [
+    "50 g rocket",
+    "1 zucchini",
+    "1 paprika",
+    "2 red onions",
+    "3 tablespoons olive oil",
+    "1/2 teaspoon salt",
+    "black pepper",
+    "2 cloves of garlic",
+    "180 g salad cheese cubes"
+  ],
+  "recipeInstructions": [
+    "Put the rocket to the oven tray.",
+    "Cut the zucchini, paprika and onions to big slices. Put them to the oven tray.",
+    "Sprinkle oil to vegetables and season with salt and pepper Add the rest of the ingredients to the oven tray (salad cheese without water).",
+    "Bake in oven at 225 °C for 20 minits."
+  ]
+}]
+}

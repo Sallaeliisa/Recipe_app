@@ -1,7 +1,9 @@
 header {
-    max-width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
     padding: 1rem;
-    background-color: rgb(245, 230, 204);
+    background-color: var(--lightBeige);
     display: flex;
     align-items: center;
     justify-content: space-between;
