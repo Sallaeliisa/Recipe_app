@@ -5,7 +5,6 @@ import {Switch, Route} from "react-router-dom";
 import Home from "./Home";
 import About from "./About";
 import Recipes from "./Recipes";
-import "./Components_CSS/Main.css"
 
 const Main = () => {
     return (

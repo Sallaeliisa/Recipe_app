@@ -22,9 +22,20 @@
     "black pepper"
   ],
   "recipeInstructions": [
-    "Sprinkle salt to fillets and fry them on both sides in butter or in oil.",
-    "Cut the garlic cloves to half and cut the lemon to big sections. Add lemon juice and mineral water to the pan.",
-    "Let simmer for 15 minutes. Then add creme fresh and bring to a boil. Season with honey and black pepper."
+    { 
+      "name": "Step 1",
+      "text": "Sprinkle salt to fillets and fry them on both sides in butter or in oil."
+    }
+    ,
+    {
+      "name": "Step 2",
+      "text": "Cut the garlic cloves to half and cut the lemon to big sections. Add lemon juice and mineral water to the pan."
+    }
+    ,
+    {
+      "name": "Step 3",
+      "text": "Let simmer for 15 minutes. Then add creme fresh and bring to a boil. Season with honey and black pepper."
+    }
   ]
 },
 
@@ -49,10 +60,24 @@
     "180 g salad cheese cubes"
   ],
   "recipeInstructions": [
-    "Put the rocket to the oven tray.",
-    "Cut the zucchini, paprika and onions to big slices. Put them to the oven tray.",
-    "Sprinkle oil to vegetables and season with salt and pepper Add the rest of the ingredients to the oven tray (salad cheese without water).",
-    "Bake in oven at 225 °C for 20 minits."
+    {
+      "name": "Step 1",
+      "text": "Put the rocket to the oven tray."
+    }
+    ,
+    { 
+      "name": "Step 2",
+      "text": "Cut the zucchini, paprika and onions to big slices. Put them to the oven tray."
+    }
+    ,
+    { 
+      "name": "Step 3",
+      "text": "Sprinkle oil to vegetables and season with salt and pepper. Add the rest of the ingredients to the oven tray (salad cheese without water)."
+    },
+    { 
+      "name": "Step 4",
+      "text": "Bake in oven at 225 °C for 20 minutes."
+    }
   ]
 }]
 }

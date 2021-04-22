@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import RecipesList from "./RecipesList";
+import "./Components_CSS/Recipes.css";
 
 class Recipes extends Component {
     state = {
@@ -16,11 +17,10 @@ class Recipes extends Component {
 
 render() {
     
-    return ( 
-        <section id="recipes">
-            <h1>Recipes</h1>
+    return (
+      <section>
       <RecipesList recipe={this.state.recipe} />
-        </section>
+      </section>
     );
     
 }

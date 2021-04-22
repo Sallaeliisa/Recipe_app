@@ -1,14 +1,10 @@
-
-section {
+#home {
     height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     top: 0;
-}
-
-#home {
     background: url("https://source.unsplash.com/kXQ3J7_2fpc/1600x900") center
     center/cover no-repeat fixed;
 }
@@ -18,7 +14,7 @@ section {
     border-width: 5px;
     border-color: var(--lightBeige);
     background-color: rgba(253, 248, 239, 0.9);
-    padding: 8rem;
+    padding: 7rem;
     border-radius: 3px;
     font-size: 60px;
     text-align: center;
