@@ -1,3 +1,5 @@
+
+
 #home {
     height: 100vh;
     width: 100vw;
@@ -7,6 +9,7 @@
     top: 0;
     background: url("https://source.unsplash.com/kXQ3J7_2fpc/1600x900") center
     center/cover no-repeat fixed;
+    /* font-family: 'Nunito', sans-serif; font-weight: 700; */
 }
 
 #home h1 {
@@ -14,8 +17,9 @@
     border-width: 5px;
     border-color: var(--lightBeige);
     background-color: rgba(253, 248, 239, 0.9);
-    padding: 7rem;
+    padding: 10vh;
     border-radius: 3px;
-    font-size: 60px;
-    text-align: center;
+    font-size: 62px;
+    font-weight: 400;
+    text-align: center; 
 }

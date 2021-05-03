@@ -1,0 +1,10 @@
+.searchBox {
+    margin: 5rem 0 2rem 4rem;
+    display: flex;
+}
+
+.searchBox h1 {
+    font-size: 32px;
+    margin-right: 2rem;
+}
+
