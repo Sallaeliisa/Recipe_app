@@ -1,19 +1,24 @@
-import React from 'react';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const RecipeCard = (props) => {
-    return (
-        <div className="recipesList">
-        <div className="recipeCard">
-            <h1>{props.name}</h1>
-              <img src={props.image} alt="meal prepared"/>
-              <h2>{props.description}</h2>
-              <div className="cardText">
-                <p>Servings: {props.recipeYield}</p>
-                <p>Cooking time: {props.totalTime}</p>
+  return (
+    <div className="recipesList">
+      <div className="recipeCard">
+        <Link to={`/recipes/${props.id}`}>
+          <h1>{props.name}</h1>
+        </Link>
+        <Link to={`/recipes/${props.id}`}>
+          <img src={props.image} alt="meal prepared" />
+        </Link>
+        <h2>{props.description}</h2>
+        <div className="cardText">
+          <p>Servings: {props.recipeYield}</p>
+          <p>Cooking time: {props.totalTime}</p>
         </div>
-        </div>
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default RecipeCard;

@@ -47,3 +47,11 @@
 .recipeCard img {
     width: 100%;
 }
+
+.singleRecipe {
+    margin: 100px 0 100px 0;
+}
+
+.singleRecipe img {
+    width: 300px;
+}

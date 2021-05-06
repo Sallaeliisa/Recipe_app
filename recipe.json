@@ -2,6 +2,7 @@
     "recipe": [
 {
   "name": "Chicken with lemon and garlic",
+  "id":1,
   "image":
     "https://cdn.valio.fi/mediafiles/8a5ae96e-1044-40d0-9abd-f60e54263a3b/1000x752-recipe-hero/4x3/sitruuna-valkosipulibroileri.jpg",
   "recipeCategory": "main course",
@@ -41,6 +42,7 @@
 
 {
   "name": "Greek vegetable casserole",
+  "id":2,
   "image":
     "https://cdn.valio.fi/mediafiles/2d22783e-3910-452b-b6eb-4e19f795c817/1000x752-recipe-hero/4x3/kreikkalainen-arkivuoka.jpg",
   "recipeCategory": "side dish",
