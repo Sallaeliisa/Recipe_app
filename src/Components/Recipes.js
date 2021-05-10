@@ -10,7 +10,6 @@ import "./Components_CSS/searchArea.css";
 class Recipes extends Component {
   state = {
     recipe: [],
-    newRecipe: [],
     searchInput: "",
   };
 
@@ -26,11 +25,6 @@ class Recipes extends Component {
     });
   };
 
-  setNewRecipe = (e) => {
-    this.setState({
-      newRecipe: { ...this.state.newRecipe, [e.target.id]: e.target.value },
-    });
-  };
 
   render() {
     const recipeFilter = this.state.recipe.filter((recipe) => {
@@ -53,23 +47,12 @@ class Recipes extends Component {
       );
     });
 
-    const submitRecipe = (e) => {
-      e.preventDefault();
-      const requestOptions = {
-        method: "POST",
-        headers: { "content-type": "application/json" },
-        body: JSON.stringify(this.state.newRecipe),
-      };
-      fetch("http://localhost:3001/recipe", requestOptions);
-      alert("Recipe is posted", window.location.reload());
-      console.log(this.state.newRecipe);
-    };
 
     return (
       <section>
         <Switch>
           <Route path="/recipes/new">
-            <Form change={this.setNewRecipe} submit={submitRecipe} />
+            <Form />
           </Route>
           <Route path="/recipes/:id">
             <SingleRecipe />

@@ -55,3 +55,8 @@
 .singleRecipe img {
     width: 300px;
 }
+
+#moreIngredients input {
+    display: block;
+    width: 100%;
+}
