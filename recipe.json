@@ -22,18 +22,9 @@
         "black pepper"
       ],
       "recipeInstructions": [
-        {
-          "name": "Step 1",
-          "text": "Sprinkle salt to fillets and fry them on both sides in butter or in oil."
-        },
-        {
-          "name": "Step 2",
-          "text": "Cut the garlic cloves to half and cut the lemon to big sections. Add lemon juice and mineral water to the pan."
-        },
-        {
-          "name": "Step 3",
-          "text": "Let simmer for 15 minutes. Then add creme fresh and bring to a boil. Season with honey and black pepper."
-        }
+        "Sprinkle salt to fillets and fry them on both sides in butter or in oil.",
+        "Cut the garlic cloves to half and cut the lemon to big sections. Add lemon juice and mineral water to the pan.",
+        "Let simmer for 15 minutes. Then add creme fresh and bring to a boil. Season with honey and black pepper."
       ]
     },
     {
@@ -74,6 +65,172 @@
           "text": "Bake in oven at 225 °C for 20 minutes."
         }
       ]
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        "1 pot dill",
+        "2 chicken",
+        "cook the chicken"
+      ],
+      "recipeInstructions": [
+        "wash the dill"
+      ],
+      "id": 3
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        "1 pot dill",
+        "1 dill"
+      ],
+      "recipeInstructions": [
+        "wash the dill",
+        "cook"
+      ],
+      "id": 4
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "30",
+      "recipeIngredients": [
+        "dill",
+        "1 pot dill"
+      ],
+      "recipeInstructions": [
+        "wash the dill",
+        "wash the dill"
+      ],
+      "id": 5
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        "",
+        ""
+      ],
+      "recipeInstructions": [],
+      "id": 6
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        null,
+        null,
+        null
+      ],
+      "recipeInstructions": [],
+      "id": 7
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [],
+      "recipeInstructions": [],
+      "id": 8
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        null
+      ],
+      "recipeInstructions": [],
+      "id": 9
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        "1 pot dill"
+      ],
+      "recipeInstructions": [],
+      "id": 10
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        "1 dill",
+        "1 dill"
+      ],
+      "recipeInstructions": [],
+      "id": 11
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        "dill",
+        "dill",
+        "dill",
+        "dill",
+        "dill"
+      ],
+      "recipeInstructions": [],
+      "id": 12
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [
+        "dill",
+        "potato",
+        "tomato"
+      ],
+      "recipeInstructions": [],
+      "id": 13
+    },
+    {
+      "name": "",
+      "image": "",
+      "description": "",
+      "recipeYield": "",
+      "totalTime": "",
+      "recipeIngredients": [],
+      "recipeInstructions": [
+        "wash the dill",
+        "wash the dill",
+        "boil the water"
+      ],
+      "id": 14
     }
   ]
 }

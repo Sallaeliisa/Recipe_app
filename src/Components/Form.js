@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 import "./Components_CSS/Form.css";
 
 const Form = () => {
@@ -11,32 +11,37 @@ const Form = () => {
     totalTime: "",
     recipeIngredients: [],
     recipeInstructions: [],
-});
-
-//   const [instructions, setInstructions] = useState([
-//     { id: "", name: "", text: "" },
-// ]);
-
-const changeHandler = (e) => {
-  setNewRecipe({
-    ...newRecipe, [e.target.id]: e.target.value
   });
-  console.log(newRecipe);
-}
 
-const addIngredient = (e) => {
-  newRecipe.recipeIngredients.push(e.target.value);
-}
+  const changeHandler = (e) => {
+    setNewRecipe({
+      ...newRecipe,
+      [e.target.id]: e.target.value,
+    });
+    console.log(newRecipe);
+  };
 
-const addIngredientLine = (event) => {
-  event.preventDefault();
-  const newLine = document.createElement('INPUT');
-  newLine.id = 'recipeIngredients';
-  newLine.onchange = addIngredient;
-  document.getElementById("moreIngredients").appendChild(newLine);
-  
-}
+  const addIngredient = (e) => {
+    e.preventDefault();
+    const ing = document.getElementById('recipeIngredient');
+    const i = ing.value;
+    newRecipe.recipeIngredients.push(i);
+    const showIng = document.createElement("P");
+    showIng.textContent=i;
+    showIng.className="addedIngredients";
+    document.getElementById("showIngredients").appendChild(showIng);
+  };
 
+  const addInstruction = (e) => {
+    e.preventDefault();
+    const inst = document.getElementById('recipeInstruction');
+    const a = inst.value;
+    newRecipe.recipeInstructions.push(a);
+    const showInst = document.createElement("P");
+    showInst.textContent=a;
+    showInst.className="addedInstructions";
+    document.getElementById("showInstructions").appendChild(showInst);
+  };
 
   const submitRecipe = (e) => {
     e.preventDefault();
@@ -49,10 +54,9 @@ const addIngredientLine = (event) => {
     alert("Recipe is posted", window.location.reload());
   };
 
-
   return (
     <form onSubmit={submitRecipe}>
-      <h1>Add your recipe here</h1>
+      <h1>Your recipe</h1>
       <label>Recipe name</label>
       <input type="text" id="name" onChange={changeHandler} />
       <label>Description of the dish</label>
@@ -70,24 +74,17 @@ const addIngredientLine = (event) => {
       <input type="text" id="recipeYield" onChange={changeHandler} />
       <label>Cooking time</label>
       <input type="text" id="totalTime" onChange={changeHandler} />
+      <h2>Ingredients</h2>
+      <section id='showIngredients'></section>
       <label>Ingredient and amount</label>
-      <input type="text" id="recipeIngredients" onChange={addIngredient} />
-      <div id="moreIngredients"></div>
-      <button onClick={addIngredientLine}>Add new ingredient</button>
+      <input type="text" id="recipeIngredient" placeholder='eg. 1 pot basil' />
+      <button onClick={addIngredient}>Add ingredient</button>
+      <h2>Instructions</h2>
+      <section id='showInstructions'></section>
+      <label>Step</label>
+      <input type="text" id="recipeInstruction" placeholder='eg. Boil the water.' />
+      <button onClick={addInstruction}>Add step</button>
       <br></br>
-
-
-      {
-      /* <label>Ingredient 1</label>
-      <input type="text" id="ingredient1" onChange={changeHandler} />
-      <label>Ingredient 2</label>
-      <input type="text" id="ingredient2" onChange={changeHandler} />
-      <label>Instructions</label>
-      <input type="text" id="recipeInstructions" placeholder="Step 1" onChange={change} />
-      <input type="text" id="recipeInstructions" placeholder="Step 2" onChange={change} />
-      <input type="text" id="recipeInstructions" placeholder="Step 3" onChange={change} />
-      <input type="text" id="recipeInstructions" placeholder="Step 4" onChange={change} />
-      <input type="text" id="recipeInstructions" placeholder="Step 5" onChange={change} /> */}
 
       <button type="submit">Add recipe</button>
     </form>
