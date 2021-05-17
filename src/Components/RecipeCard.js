@@ -14,7 +14,6 @@ const RecipeCard = (props) => {
         </Link>
         <h2>{props.description}</h2>
         <div className="cardText">
-          <p>Servings: {props.recipeYield}</p>
           <p>Cooking time: {props.totalTime}</p>
         </div>
       </div>

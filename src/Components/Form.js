@@ -23,24 +23,26 @@ const Form = () => {
 
   const addIngredient = (e) => {
     e.preventDefault();
-    const ing = document.getElementById('recipeIngredient');
-    const i = ing.value;
-    newRecipe.recipeIngredients.push(i);
-    const showIng = document.createElement("P");
-    showIng.textContent=i;
-    showIng.className="addedIngredients";
-    document.getElementById("showIngredients").appendChild(showIng);
+    const ingredientValue = document.getElementById('recipeIngredient');
+    const ingredient = ingredientValue.value;
+    newRecipe.recipeIngredients.push(ingredient);
+    const showIngredient = document.createElement("P");
+    showIngredient.textContent=ingredient;
+    showIngredient.className="addedIngredients";
+    document.getElementById("showIngredients").appendChild(showIngredient);
+    document.getElementById('recipeIngredient').value = '';
   };
 
   const addInstruction = (e) => {
     e.preventDefault();
-    const inst = document.getElementById('recipeInstruction');
-    const a = inst.value;
-    newRecipe.recipeInstructions.push(a);
-    const showInst = document.createElement("P");
-    showInst.textContent=a;
-    showInst.className="addedInstructions";
-    document.getElementById("showInstructions").appendChild(showInst);
+    const instructionValue = document.getElementById('recipeInstruction');
+    const instruction = instructionValue.value;
+    newRecipe.recipeInstructions.push(instruction);
+    const showInstruction = document.createElement("P");
+    showInstruction.textContent=instruction;
+    showInstruction.className="addedInstructions";
+    document.getElementById("showInstructions").appendChild(showInstruction);
+    document.getElementById('recipeInstruction').value = '';
   };
 
   const submitRecipe = (e) => {
@@ -69,6 +71,7 @@ const Form = () => {
         <option value="main dish">Main dish</option>
         <option value="side dish">Side dish</option>
         <option value="dessert">Dessert</option>
+        <option value="other">Other</option>
       </select>
       <label>Proportions</label>
       <input type="text" id="recipeYield" onChange={changeHandler} />

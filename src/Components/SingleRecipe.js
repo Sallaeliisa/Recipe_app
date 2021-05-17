@@ -41,7 +41,7 @@ const SingleRecipe = () => {
           {recipe.recipeInstructions.map((item) => {
             return (
               <p>
-                {'Step'}
+                Step {recipe.recipeInstructions.indexOf(item) + 1}
                 <div className="item">
                 <ul>
                   <p>{item}</p>

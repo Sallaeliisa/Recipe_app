@@ -42,7 +42,7 @@ class Recipes extends Component {
           image={recipe.image}
           description={recipe.description}
           recipeYield={recipe.recipeYield}
-          totalTime={recipe.totalTime + " minutes"}
+          totalTime={recipe.totalTime}
         />
       );
     });
