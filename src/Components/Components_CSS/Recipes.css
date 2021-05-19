@@ -1,62 +1,57 @@
-* {
-    margin: 0;
-    padding: 0;
-}
 
 .recipesList {
-    margin: 2rem 0 1rem 4rem;
-    display: inline-flex;
-    background-color: green;
+  margin: 2rem 0 1rem 4rem;
+  display: inline-flex;
 }
 
 .recipeCard {
-    width: 350px;
-    background-color: white;
-    border-radius: 3px;
-    box-shadow: 0 0 5px #333;
+  width: 350px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px #333;
 }
 
 .recipeCard h1 {
-    font-size: 22px;
-    padding: .7rem;
+  font-size: 22px;
+  padding: 0.7rem;
 }
 
 .recipeCard h2 {
-    padding: .7rem .7rem 0 .7rem;
-    line-height: 1.5;
-    font-size: 22px;
+  padding: 0.7rem 0.7rem 0 0.7rem;
+  line-height: 1.5;
+  font-size: 22px;
 }
 
 .recipeCard h4 {
-    margin: 1rem 0 1rem 0;
-    line-height: 1.5;
+  margin: 1rem 0 1rem 0;
+  line-height: 1.5;
 }
 
 .recipeCard p {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .cardText {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 .item {
-    padding: 0 0 .5rem 1rem;
+  padding: 0 0 0.5rem 1rem;
 }
 
 .recipeCard img {
-    width: 100%;
+  width: 100%;
 }
 
 .singleRecipe {
-    margin: 100px 0 100px 0;
+  margin: 100px 0 100px 0;
 }
 
 .singleRecipe img {
-    width: 300px;
+  width: 300px;
 }
 
-#moreIngredients input {
-    display: block;
-    width: 100%;
+.singleRecipe h5 {
+  font-size: 20px;
+  font-weight: normal;
 }

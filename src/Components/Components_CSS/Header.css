@@ -2,10 +2,15 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    padding: 1rem;
+    padding: .1rem;
     background-color: var(--lightBeige);
     display: flex;
     align-items: center;
     justify-content: space-between;
     z-index: 1;
+}
+
+header img {
+    margin-left: 2rem;
+    height: 70px;
 }

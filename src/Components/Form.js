@@ -1,5 +1,5 @@
 import React from "react";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import "./Components_CSS/Form.css";
 
 const Form = () => {
@@ -31,6 +31,7 @@ const Form = () => {
     showIngredient.className="addedIngredients";
     document.getElementById("showIngredients").appendChild(showIngredient);
     document.getElementById('recipeIngredient').value = '';
+    document.getElementById("showIngredients").classList.add('ingredientList');
   };
 
   const addInstruction = (e) => {
@@ -43,6 +44,7 @@ const Form = () => {
     showInstruction.className="addedInstructions";
     document.getElementById("showInstructions").appendChild(showInstruction);
     document.getElementById('recipeInstruction').value = '';
+    document.getElementById("showInstructions").classList.add('instructionList');
   };
 
   const submitRecipe = (e) => {

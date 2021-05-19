@@ -1,3 +1,7 @@
+nav {
+    display: inline-flex;
+}
+
 nav ul li {
     display: inline-block;
     margin: 0 2vw 0 2vw;
@@ -5,4 +9,9 @@ nav ul li {
 
 a {
     text-decoration: none;
+}
+
+nav img {
+    display: inline-block;
+    height: 60px;
 }

@@ -6,7 +6,8 @@ const Home = () => {
         
         <section id="home">
             <div className="container">
-            <h1>Welcome to Cookbook page</h1>
+            <h1>Favourite food</h1>
+            <h2>- find and add recipes</h2>
             </div>
         </section>
         

@@ -1,0 +1,23 @@
+#about {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: url("https://source.unsplash.com/KsIfRQkR5vM/1600x900") center
+    center/cover no-repeat fixed;
+}
+
+#about .textContainer {
+    width: 50%;
+    line-height: 2;
+    text-align: left;
+    margin-left: 10%;
+}
+
+#about .aboutText {
+    font-size: 24px;
+}
+
+#about .aboutSmallText {
+    line-height: 4;
+    font-style: italic;
+}

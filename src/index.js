@@ -1,4 +1,3 @@
-// This is the rendering file that will show the application
 
 import React from 'react';
 import ReactDOM from 'react-dom';
