@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import SearchBox from "./SearchBox";
 import RecipeCard from "./RecipeCard";
 import SingleRecipe from "./SingleRecipe";
-import Form from "./Form";
+import Form from "./RecipeForm";
 import { Switch, Route } from "react-router-dom";
 import "./Components_CSS/Recipes.css";
 import "./Components_CSS/searchArea.css";

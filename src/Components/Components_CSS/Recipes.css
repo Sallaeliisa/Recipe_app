@@ -14,6 +14,8 @@
 .recipeCard h1 {
   font-size: 22px;
   padding: 0.7rem;
+  font-weight: 700;
+  color: black;
 }
 
 .recipeCard h2 {
@@ -27,12 +29,8 @@
   line-height: 1.5;
 }
 
-.recipeCard p {
-  line-height: 1.5;
-}
-
 .cardText {
-  padding: 1rem;
+  padding: .5rem;
 }
 
 .item {

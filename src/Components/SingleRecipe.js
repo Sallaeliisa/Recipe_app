@@ -28,6 +28,7 @@ const SingleRecipe = () => {
         <img src={recipe.image} alt="meal prepared" />
         <h3>{recipe.description}</h3>
         <div className="cardText">
+          <p>Category: {recipe.recipeCategory}</p>
           <p>Servings: {recipe.recipeYield}</p>
           <p>Cooking time: {recipe.totalTime}</p>
           <h4>Ingredients:</h4>
