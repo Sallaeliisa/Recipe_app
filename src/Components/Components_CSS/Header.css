@@ -1,5 +1,6 @@
 header {
     position: fixed;
+    height: 7vh;
     top: 0;
     width: 100%;
     padding: .1rem;
@@ -12,5 +13,5 @@ header {
 
 header img {
     margin-left: 2rem;
-    height: 70px;
+    height: 6.5vh;
 }

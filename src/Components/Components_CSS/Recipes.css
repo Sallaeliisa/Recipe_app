@@ -5,10 +5,14 @@
 }
 
 .recipeCard {
-  width: 350px;
+  width: 20vw;
   background-color: white;
   border-radius: 3px;
   box-shadow: 0 0 5px #333;
+}
+
+.filteredRecipes {
+  margin-bottom: 9vh;
 }
 
 .recipeCard h1 {
