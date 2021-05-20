@@ -1,7 +1,7 @@
 .searchBox {
     width: fit-content;
     height: 5rem;
-    margin: 5rem 0 2rem 4rem;
+    margin: 5rem 0 1rem 4rem;
     display: inline-flex;
     align-items: center;
 }

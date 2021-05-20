@@ -1,4 +1,3 @@
-
 .recipesList {
   margin: 2rem 0 1rem 4rem;
   display: inline-flex;
@@ -34,7 +33,7 @@
 }
 
 .cardText {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .item {
