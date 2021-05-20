@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 
 const SingleRecipe = () => {
   const [recipe, setRecipe] = useState();
@@ -18,11 +19,12 @@ const SingleRecipe = () => {
   let recipeData = undefined;
 
   if (!recipe) {
-    recipeData = <h1>Loading...</h1>;
+    recipeData = <div className="loading"><h1>Loading...</h1></div>;
   }
 
   if (recipe) {
     recipeData = (
+      <div className="singleContainer">
       <div className="singleRecipe">
         <h2>{recipe.name}</h2>
         <img src={recipe.image} alt="meal prepared" />
@@ -52,8 +54,9 @@ const SingleRecipe = () => {
         </ul>
         </div>
         <Link to={`/recipes`}>
-          <button>Back to recipes</button>
+        <Button variant="outline-primary">Back to recipes</Button>
         </Link>
+      </div>
       </div>
     );
   }

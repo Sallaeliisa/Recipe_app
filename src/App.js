@@ -1,5 +1,3 @@
-// This is the basic structure of the page, where components are brought together
-
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
 import Header from "./Components/Header";

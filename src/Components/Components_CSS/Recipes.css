@@ -41,15 +41,29 @@
   width: 100%;
 }
 
+.singleContainer {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 .singleRecipe {
-  margin: 100px 0 100px 0;
+  width: 50%;
+  margin: 5rem;
 }
 
 .singleRecipe img {
-  width: 300px;
+  width: 400px;
 }
 
 .singleRecipe h5 {
   font-size: 20px;
   font-weight: normal;
+}
+.singleRecipe a:hover {
+  text-decoration: none;
+}
+
+.loading {
+  margin-top: 5rem;
 }
